@@ -1,0 +1,15 @@
+{
+    "name": "joaop/devbooks",
+    "autoload": {
+        "psr-4": {
+            "Joaop\\Devbooks\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "João Claudio Prestes",
+            "email": "119965861+joaoclaudioprestes@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
