@@ -1,0 +1,6 @@
+RewritEngine On 
+
+RewritEngine %{REQUEST_FILENAME} !-d
+RewritEngine %{REQUEST_FILENAME} !-f
+
+RewritRule ^{.*}$ index.php?url=$1 [QSA]
